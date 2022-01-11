@@ -1,22 +1,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    screens: {
-      'sm': '1px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '576px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '992px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1200px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1400px',
-      // => @media (min-width: 1536px) { ... }
-    },
+    extend: {
+      colors: {
+        'light-grey': '#E2E2E2',
+        'dark-grey': '#C4C4C4',
+      },
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
 }

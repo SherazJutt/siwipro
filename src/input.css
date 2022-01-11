@@ -2,20 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-@media screen {
 
-
-    }
-    
+.nav-items>a {
+    font-size: 14px;
+    padding: 0px 10px;
 }
-@media only screen and (min-width: 500px) {
-    .wrapper{
-        width: 70%;
-        margin: auto;
 
-    }
-    
+.nav-items>a:hover {
+    color: red;
+    transition: 250ms;
 }
-.wrapper{
-    background-color: red;
+
+.nav-items :nth-last-child(1) {
+    padding: 0px;
+}
+
+/* nav end */
+
+/* carouselstart */
+.carousel__boxes .box{
+width: 100px;
+height: 100px;
+background-color: red;
+
 }

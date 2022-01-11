@@ -1,5 +1,14 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.0.7"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.13"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-alpha4"
   }
+  
 }
