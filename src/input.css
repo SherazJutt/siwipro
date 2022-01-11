@@ -3,12 +3,7 @@
 @tailwind utilities;
 
 @media screen {
-    
-}
-@media only screen and (max-width: 500px) {
-    .wrapper{
-        width: 100%;
-        margin: auto;
+
 
     }
     
