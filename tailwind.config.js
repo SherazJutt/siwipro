@@ -9,6 +9,16 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1536px',
     },
+    container: {
+      center: true, 
+      padding: {
+        DEFAULT: '1rem',
+        'md': '1rem',
+        'lg': '2rem',
+        'xl': '10rem',
+        '2xl': '15rem',
+      },
+    },
     extend: {
       colors: {
         'light-grey': '#E2E2E2',
